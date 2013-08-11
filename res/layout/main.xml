@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment_container">
 
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
-            android:id="@+id/textView"
-            android:layout_gravity="left|center_vertical"/>
+            android:text="Теория большого взырва"
+            android:id="@+id/textView"/>
 
-    <Button
-            style="?android:attr/buttonStyleSmall"
+    <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"/>
-</LinearLayout>
+            >
 
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="1 сезон"
+                android:id="@+id/TBBTSeason"
+                android:onClick="incTbbtSeason"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="1 серия"
+                android:id="@+id/TBBTSeries"
+                android:onClick="incTbbtSerial"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Сбросить"
+                android:id="@+id/TBBTReset"
+                android:onClick="resetTbbt"/>
+    </LinearLayout>
+
+</LinearLayout>
