@@ -3,4 +3,7 @@
     <string name="app_name">MySerials</string>
     <string name ="action_addView">Добавить просмотр</string>
     <string name ="action_settings">Настройки</string>
+    <string name ="season_string">Сезон</string>
+    <string name ="series_string">Серия</string>
+    <string name ="preference_file_key">MiSerials</string>
 </resources>

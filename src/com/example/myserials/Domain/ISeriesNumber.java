@@ -5,6 +5,5 @@ package com.example.myserials.Domain;
  */
 public interface ISeriesNumber {
     SeriesNumeration getSeriesNumeration();
-    void setSeriesNumeration(SeriesNumeration a_seriesNumeration);
     void  Inc();
 }

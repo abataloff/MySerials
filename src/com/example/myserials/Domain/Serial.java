@@ -5,10 +5,19 @@ package com.example.myserials.Domain;
  */
 public class Serial {
 
-    public String Name;
+    public String getName() {
+        return name;
+    }
+
+    String name;
 
     public Serial(String a_name)
     {
-        Name = a_name;
+        name = a_name;
+    }
+
+    @Override public String toString()
+    {
+        return getName();
     }
 }
