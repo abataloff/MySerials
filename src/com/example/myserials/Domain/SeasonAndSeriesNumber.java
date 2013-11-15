@@ -95,4 +95,12 @@ public class SeasonAndSeriesNumber implements ISeriesNumber {
         return "Сезон " + Integer.toString(getSeasonNumber()) + " " +
                "Серия " + Integer.toString(getSeriesNumber());
     }
+
+    public static SeasonAndSeriesNumber create(int[] a_seriesMap, String a_seriesNumberString)
+    {
+        String[] _arr =  (a_seriesNumberString.replace("Сезон ", "").replace("Серия ", "")).split(" ");
+        int _season = Integer.parseInt(_arr[0]);
+        int _series = Integer.parseInt(_arr[1]);
+        return new SeasonAndSeriesNumber(a_seriesMap,_season,_series);
+    }
 }

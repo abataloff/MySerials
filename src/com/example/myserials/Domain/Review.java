@@ -4,11 +4,11 @@ package com.example.myserials.Domain;
  * Created by abataloff on 19.10.13.
  */
 public class Review {
-    public Serial getSerial() {
+    public ISerial getSerial() {
         return serial;
     }
 
-    Serial serial;
+    ISerial serial;
 
     public ISeriesNumber getSeriesNumber() {
         return seriesNumber;
@@ -16,9 +16,9 @@ public class Review {
 
     ISeriesNumber seriesNumber;
 
-    public Review(Serial a_serial,ISeriesNumber a_seriesNumber){
+    public Review(ISerial a_serial,ISeriesNumber a_lastReviewedSeriesNumber){
         serial = a_serial;
-        seriesNumber = a_seriesNumber;
+        seriesNumber = a_lastReviewedSeriesNumber;
     }
 
     public void Reviewed()

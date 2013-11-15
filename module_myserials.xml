@@ -43,6 +43,7 @@
   </patternset>
   
   <patternset id="excluded.from.compilation.myserials">
+    <patternset refid="compiler.excluded"/>
     <patternset refid="excluded.from.module.myserials"/>
   </patternset>
   
@@ -70,10 +71,12 @@
       <fileset dir="${module.myserials.basedir}/src">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
+        <patternset refid="excluded.from.compilation.myserials"/>
       </fileset>
       <fileset dir="${module.myserials.basedir}/gen">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
+        <patternset refid="excluded.from.compilation.myserials"/>
       </fileset>
     </copy>
   </target>
