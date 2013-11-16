@@ -34,6 +34,7 @@ public class ReviewDetails extends Activity {
     public void onDelete(View a_aview)
     {
         provider.removeReviewd(review);
+        finish();
     }
 
     public void onReviewed(View a_view)

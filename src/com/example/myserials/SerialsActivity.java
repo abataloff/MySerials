@@ -37,5 +37,6 @@ public class SerialsActivity  extends ListActivity
    {
        //ISerial _serial = provider.getSerialById(_idSerial);
        Provider.getCurrent().addNewViewOnSerial(serials[position]);
+       finish();
     }
 }

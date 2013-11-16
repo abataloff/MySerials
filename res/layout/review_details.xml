@@ -23,7 +23,13 @@
                 android:id="@+id/reviewDetails_reviewed"
                 android:singleLine="true"
                 android:textColor="@android:color/black"
-                android:longClickable="false"/>
+                android:longClickable="false"
+                android:layout_margin="30dp"
+                android:clickable="false"
+                android:enabled="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                />
         <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -31,7 +37,8 @@
                 android:text="Удалить"
                 android:background="#ff0000"
                 android:id="@+id/reviewDetails_delete"
-                android:textColor="@android:color/black"/>
+                android:textColor="@android:color/black"
+                android:layout_margin="30dp"/>
     </LinearLayout>
 
 </LinearLayout>
