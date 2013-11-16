@@ -12,10 +12,13 @@ import com.example.myserials.Domain.SeriesNumeration;
 import com.example.myserials.R;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Dictionary;
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -125,5 +128,42 @@ public class Provider {
             _retDic.put(_serial.getId(),_serial);
         }
         return _retDic;
+    }
+
+    public ISerial[] getFreeSerials()
+    {
+        ArrayList<ISerial> _retLis = new ArrayList<ISerial>();
+
+        ArrayList<Integer> _viewedId = new ArrayList<Integer>();
+        for(int i=0;i<reviews.size();i++)
+            _viewedId.add(reviews.get(i).getSerial().getId());
+
+        Iterator<ISerial> _serials = getSerials().values().iterator();
+
+        ISerial _serial = _serials.next();
+        while (_serial !=null)
+        {
+            if(!_viewedId.contains(_serial.getId()))
+            {
+                _retLis.add(_serial);
+            }
+            if(_serials.hasNext())
+                _serial = _serials.next();
+            else _serial = null;
+        }
+
+        ISerial[] _arr = new ISerial[_retLis.size()];
+        return _retLis.toArray(_arr);
+    }
+
+    public void addNewViewOnSerial(ISerial a_serial)
+    {
+        // TODO:
+        reviews.add(new Review(a_serial,new SeasonAndSeriesNumber(new int[]{0},1,1)));
+    }
+
+    public ISerial getSerialById(int a_idSerial)
+    {
+        return getSerials().get(a_idSerial);
     }
 }

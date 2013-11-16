@@ -18,3 +18,6 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+/.idea/workspace (2).xml
+/out/production/MySerials/MySerials.apk.res

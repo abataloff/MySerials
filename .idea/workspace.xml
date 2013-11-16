@@ -25,15 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4980bb13-87f4-4f09-8e29-e9a156dec0b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myserials/net/Provider.java" afterPath="$PROJECT_DIR$/src/com/example/myserials/net/Provider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserials.properties" afterPath="$PROJECT_DIR$/myserials.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserials.xml" afterPath="$PROJECT_DIR$/myserials.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myserials/net/Provider.java" afterPath="$PROJECT_DIR$/src/com/example/myserials/net/Provider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserials.xml" afterPath="$PROJECT_DIR$/myserials.xml" />
       <change type="MOVED" beforePath="C:\Users\abataloff\YandexDisk\_Projects\MySerials\src\com\example\myserials\Domain\Serial.java" afterPath="$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesSerial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_myserials.xml" afterPath="$PROJECT_DIR$/module_myserials.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserials.properties" afterPath="$PROJECT_DIR$/myserials.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
     </list>
     <ignored path="MySerials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,6 +57,7 @@
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -102,44 +103,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Provider.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Provider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/myserials/net/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="3669" selection-end="3669" vertical-scroll-proportion="2.2916667" vertical-offset="0" max-vertical-offset="2640">
+            <state line="155" column="0" selection-start="5172" selection-end="5172" vertical-scroll-proportion="0.0" vertical-offset="2083" max-vertical-offset="2669">
               <folding>
-                <element signature="e#1216#1263#0" expanded="true" />
-                <element signature="e#1999#2046#0" expanded="true" />
-                <element signature="e#4161#4179#0" expanded="true" />
+                <element signature="e#1294#1341#0" expanded="true" />
+                <element signature="e#2077#2124#0" expanded="true" />
+                <element signature="e#4239#4257#0" expanded="true" />
+                <element signature="e#4536#4545#0" expanded="true" />
+                <element signature="e#4602#4611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReviewDetails.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/ReviewDetails.java">
+      <file leaf-file-name="SeasonAndSeriesNumber.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeasonAndSeriesSerial.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesSerial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review_details.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/review_details.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="14" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="714">
+            <state line="31" column="11" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -148,25 +130,48 @@
       <file leaf-file-name="Review.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/Review.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="18" column="11" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeasonAndSeriesNumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesNumber.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0" vertical-offset="1318" max-vertical-offset="1904">
+            <state line="107" column="27" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2091">
+              <folding>
+                <element signature="e#2873#2882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="48" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding>
+                <element signature="e#976#994#0" expanded="true" />
+                <element signature="e#1090#1108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="7429">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISeriesNumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISeriesNumber.java">
+      <file leaf-file-name="Instrumentation.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Instrumentation.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
+            <state line="112" column="16" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="2686">
               <folding />
             </state>
           </provider>
@@ -175,16 +180,25 @@
       <file leaf-file-name="SeriesNumeration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeriesNumeration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+            <state line="5" column="12" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISerial.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISerial.java">
+      <file leaf-file-name="ReviewDetails.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/ReviewDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+            <state line="20" column="50" selection-start="432" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialsActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myserials/SerialsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="935" selection-end="935" vertical-scroll-proportion="0.59385663" vertical-offset="26" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -213,12 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/myserials/Adapters/ReviewArrayAdapter.java" />
-        <option value="$PROJECT_DIR$/MySerials.iml" />
-        <option value="$PROJECT_DIR$/project.properties" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/myserials/ReviewDetails.java" />
         <option value="$PROJECT_DIR$/src/com/example/myserials/Domain/Serial.java" />
         <option value="$PROJECT_DIR$/res/layout/review_details.xml" />
         <option value="$PROJECT_DIR$/src/com/example/myserials/Domain/Review.java" />
@@ -228,7 +236,13 @@
         <option value="$PROJECT_DIR$/src/com/example/myserials/Domain/SeriesNumeration.java" />
         <option value="$PROJECT_DIR$/src/com/example/myserials/Domain/ISeriesNumber.java" />
         <option value="$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesNumber.java" />
+        <option value="$PROJECT_DIR$/res/layout/serials.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_serial.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/myserials/Adapters/SerialArrayAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/myserials/net/Provider.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/myserials/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myserials/SerialsActivity.java" />
       </list>
     </option>
   </component>
@@ -317,7 +331,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,50 +385,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySerials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySerials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myserials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySerials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySerials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myserials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Adapters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -434,8 +403,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySerials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySerials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,6 +459,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.myserials.Adapters" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\_Projects\MySerials\.idea" />
     </key>
@@ -660,34 +651,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1862" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242424" sideWeight="0.67064846" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242424" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34754798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34754798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34754798" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32622603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22388889" sideWeight="0.65245205" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22222222" sideWeight="0.65245205" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27292112" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67235494" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32734376" sideWeight="0.7847966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.7847966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -752,77 +743,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISeriesNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeriesNumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISerial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myserials.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/review_details.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Adapters/ReviewArrayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesSerial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeriesNumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISeriesNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/ISerial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
@@ -830,42 +750,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/ReviewDetails.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Integer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="714">
+        <state line="28" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.3327645" vertical-offset="264" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_review.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Integer.class">
+    <entry file="file://$PROJECT_DIR$/res/layout/review_details.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.3327645" vertical-offset="264" max-vertical-offset="1496">
+        <state line="32" column="14" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Adapters/ReviewArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeasonAndSeriesNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0" vertical-offset="1318" max-vertical-offset="1904">
+        <state line="31" column="11" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/Review.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="18" column="11" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/ReviewDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="50" selection-start="432" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myserials/net/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3669" selection-end="3669" vertical-scroll-proportion="2.2916667" vertical-offset="0" max-vertical-offset="2640">
+        <state line="155" column="0" selection-start="5172" selection-end="5172" vertical-scroll-proportion="0.0" vertical-offset="2083" max-vertical-offset="2669">
           <folding>
-            <element signature="e#1216#1263#0" expanded="true" />
-            <element signature="e#1999#2046#0" expanded="true" />
-            <element signature="e#4161#4179#0" expanded="true" />
+            <element signature="e#1294#1341#0" expanded="true" />
+            <element signature="e#2077#2124#0" expanded="true" />
+            <element signature="e#4239#4257#0" expanded="true" />
+            <element signature="e#4536#4545#0" expanded="true" />
+            <element signature="e#4602#4611#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="48" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding>
+            <element signature="e#976#994#0" expanded="true" />
+            <element signature="e#1090#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="7429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Instrumentation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="16" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/Domain/SeriesNumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="27" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2091">
+          <folding>
+            <element signature="e#2873#2882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myserials/SerialsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="935" selection-end="935" vertical-scroll-proportion="0.59385663" vertical-offset="26" max-vertical-offset="612">
+          <folding />
         </state>
       </provider>
     </entry>
